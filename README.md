@@ -7,7 +7,7 @@ Compatibility is calculated randomly using `Math.random()` to keep results light
 
 ## 🌐 Live Demo
 
-[Check it out here]([https://SakshiKumari271github.io/zodiac-compatibility-checker/](https://sakshikumari271.github.io/zodiac-compatibility-checker/))
+[Check it out here](https://sakshikumari271.github.io/zodiac-compatibility-checker/)
 
 
 ## ✨ Features
