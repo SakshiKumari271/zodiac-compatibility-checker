@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Zodiac Compatibility Checker | By Sakshi Kumari</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="overlay">
+    <div class="container">
+      <h1>🔮 Zodiac Compatibility Checker</h1>
+
+      <div class="mode-toggle">
+        <button id="loveBtn" class="active">💘 Love</button>
+        <button id="friendBtn">🤝 Friendship</button>
+      </div>
+
+      <div class="selectors">
+        <select id="sign1">
+          <option value="">Your Sign</option>
+          <option value="Aries">♈ Aries</option>
+          <option value="Taurus">♉ Taurus</option>
+          <option value="Gemini">♊ Gemini</option>
+          <option value="Cancer">♋ Cancer</option>
+          <option value="Leo">♌ Leo</option>
+          <option value="Virgo">♍ Virgo</option>
+          <option value="Libra">♎ Libra</option>
+          <option value="Scorpio">♏ Scorpio</option>
+          <option value="Sagittarius">♐ Sagittarius</option>
+          <option value="Capricorn">♑ Capricorn</option>
+          <option value="Aquarius">♒ Aquarius</option>
+          <option value="Pisces">♓ Pisces</option>
+        </select>
+
+        <select id="sign2">
+          <option value="">Their Sign</option>
+          <!-- Same signs -->
+          <option value="Aries">♈ Aries</option>
+          <option value="Taurus">♉ Taurus</option>
+          <option value="Gemini">♊ Gemini</option>
+          <option value="Cancer">♋ Cancer</option>
+          <option value="Leo">♌ Leo</option>
+          <option value="Virgo">♍ Virgo</option>
+          <option value="Libra">♎ Libra</option>
+          <option value="Scorpio">♏ Scorpio</option>
+          <option value="Sagittarius">♐ Sagittarius</option>
+          <option value="Capricorn">♑ Capricorn</option>
+          <option value="Aquarius">♒ Aquarius</option>
+          <option value="Pisces">♓ Pisces</option>
+        </select>
+      </div>
+
+      <button onclick="checkCompatibility()">Check Compatibility</button>
+      <div id="result" class="animated-text"></div>
+    </div>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
